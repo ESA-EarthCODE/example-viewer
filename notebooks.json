@@ -1,0 +1,14 @@
+[
+  {
+    "title": "Creating a STAC Item Catalog",
+    "description": "",
+    "metadata": {},
+    "image": null,
+    "link": "external-notebooks/earthcode/documentation/examples/osc/creating-an-item-catalog",
+    "org": "ESA-EarthCODE",
+    "repo": "documentation",
+    "source": "submodule",
+    "path": "external_notebooks/earthcode/documentation/examples/OSC/creating_an_item_catalog.ipynb",
+    "gitpuller": "https://workspace.earthcode.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/documentation&urlpath=examples/OSC/creating_an_item_catalog.ipynb&branch=main"
+  }
+]
