@@ -54,8 +54,8 @@ def extract_last_image(nb, notebook_rel_path, output_dir="_build/html/build/_ass
                     image_name = notebook_rel_path.replace("/", "_").replace(".ipynb", "_preview.png")
                     output_path = os.path.join(output_dir, image_name)
                     img.save(output_path)
-
-                    return os.path.relpath(output_path, start=".").replace("\\", "/")
+                    relpath = os.path.join("build/_assets/previews", image_name)
+                    return os.path.relpath(relpath, start=".").replace("\\", "/")
             except Exception as e:
                 print(f"[warn] Couldn't load/resize MyST image for {notebook_rel_path}: {e}")
 
