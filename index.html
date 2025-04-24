@@ -2,82 +2,28 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Notebook Catalog</title>
+  <title>Example Explorer</title>
   <script type="module">
     import "https://cdn.jsdelivr.net/npm/@eox/layout@0.5.1/dist/eox-layout.js";
     import "https://cdn.jsdelivr.net/npm/@eox/itemfilter@1.9.1/dist/eox-itemfilter.js";
   </script>
-
-  <style>
-    body {
-      font-family: sans-serif;
-      padding: 2em;
-    }
-
-    .tile {
-      border: 1px solid #ccc;
-      border-radius: 10px;
-      padding: 1em;
-      background: #f9f9f9;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-
-    .tile h3 {
-      margin-top: 0;
-    }
-
-    .tiles {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-      gap: 1.5em;
-    }
-
-    .launch-button {
-      margin-top: auto;
-      padding: 0.5em 1em;
-      background-color: #007acc;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      text-decoration: none;
-      text-align: center;
-    }
-
-    .launch-button:hover {
-      background-color: #005fa3;
-    }
-    body {
-      margin: 0;
-      padding: 2rem;
-      display: flex;
-      justify-content: center;
-      background-color: #f5f5f5;
-      font-family: sans-serif;
-    }
-
-    .center-box {
-      max-width: 900px;
-      width: 100%;
-      background: white;
-      padding: 2rem;
-      border-radius: 12px;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
-    }
-  </style>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@eox/ui/dist/style.min.css"
+  />
   <script src="https://cdn.jsdelivr.net/npm/@luigi-project/client@2.21.1/luigi-client.js"></script>
 </head>
-<body>
-  <div class="center-box">
-    <h1>Notebook Catalog</h1>
+
+<body class="light responsive large-padding">
+  <article class="surface-container-lowest large-padding">
+    <h4>Example Explorer</h1>
     <eox-itemfilter
+      class="large-margin"
       id="catalog"
-      style="--card-gap: 10px; --card-width: 270px; --card-height: 200px; --card-border-radius: 8px;"
+      style="--form-flex-direction: row; --card-gap: 10px; --card-width: 270px; --card-height: 200px; --card-border-radius: 8px;"
     >
     </eox-itemfilter>
-  </div>
+  </article>
   
   <script type="module">
     const el = document.getElementById('catalog');
