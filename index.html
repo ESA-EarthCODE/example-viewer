@@ -109,7 +109,7 @@
         });
         el.addEventListener('click:result-action', (e) => {
           const urlObj = new URL(`${e.detail.gitpuller}`);
-          LuigiClient.addCoreSearchParams(urlObj.searchParams);
+          LuigiClient.addCoreSearchParams(Object.fromEntries(urlObj.searchParams));
           LuigiClient.linkManager().preserveQueryParams(true).navigate(urlObj.pathname);
         });
         el.addEventListener('select', (e) => {
