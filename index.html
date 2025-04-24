@@ -108,7 +108,7 @@
         });
         el.addEventListener('click:result-action', (e) => {
           const url = `${e.detail.gitpuller}`;
-          window.open(url, '_blank');
+          window.open(url, '_parent');
         });
         el.addEventListener('select', (e) => {
           window.location.href = e.detail.link;
