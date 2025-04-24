@@ -3,7 +3,7 @@
     "title": "Creating a STAC Item Catalog",
     "description": "",
     "metadata": {},
-    "image": "_build/html/build/_assets/previews/external_notebooks_earthcode_documentation_examples_OSC_creating_an_item_catalog_preview.png",
+    "image": "build/_assets/previews/external_notebooks_earthcode_documentation_examples_OSC_creating_an_item_catalog_preview.png",
     "link": "external-notebooks/earthcode/documentation/examples/osc/creating-an-item-catalog",
     "org": "ESA-EarthCODE",
     "repo": "documentation",
