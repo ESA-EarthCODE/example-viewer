@@ -110,7 +110,13 @@
           const url = `${e.detail.gitpuller}`;
           // TODO: replace with some postMessage logic if supported by user area
           // for now we open in a new tab
-          window.open(url, '_blank');
+          // window.open(url, '_blank');
+          window.parent.postMessage({
+            msg: 'luigi.navigation.open',
+            params: {
+              link: '/hub', //url,
+            },
+          }, '*');
         });
         el.addEventListener('select', (e) => {
           window.location.href = e.detail.link;
