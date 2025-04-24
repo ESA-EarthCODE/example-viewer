@@ -109,14 +109,8 @@
         });
         el.addEventListener('click:result-action', (e) => {
           const urlObj = new URL(`${e.detail.gitpuller}`);
-          const link = urlObj.pathname+urlObj.search;
-          LuigiClient.linkManager().preserveQueryParams(true).navigate(link);
-          /*window.parent.postMessage({
-            msg: 'luigi.navigation.open',
-            params: {
-              link: link,
-            },
-          }, '*');*/
+          LuigiClient.addCoreSearchParams(urlObj.searchParams);
+          LuigiClient.linkManager().preserveQueryParams(true).navigate(urlObj.pathname);
         });
         el.addEventListener('select', (e) => {
           window.location.href = e.detail.link;
