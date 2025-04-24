@@ -108,7 +108,9 @@
         });
         el.addEventListener('click:result-action', (e) => {
           const url = `${e.detail.gitpuller}`;
-          window.open(url, '_parent');
+          // TODO: replace with some postMessage logic if supported by user area
+          // for now we open in a new tab
+          window.open(url, '_blank');
         });
         el.addEventListener('select', (e) => {
           window.location.href = e.detail.link;
