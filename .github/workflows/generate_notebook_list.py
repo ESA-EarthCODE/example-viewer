@@ -21,6 +21,46 @@ DEF_REPO = "example-viewer"
 
 def extract_last_image(nb, notebook_rel_path, output_dir="_build/html/build/_assets/previews", target_width=300):
     os.makedirs(output_dir, exist_ok=True)
+    found_images = []
+    # Check markdown cells for images
+    for cell in nb.cells:
+        if cell.cell_type == "markdown":
+            lines = cell.source.splitlines()
+            for line in lines:
+                # Match Markdown image: ![alt](path)
+                md_img = re.findall(r'!\[.*?\]\((.*?)\)', line)
+                if md_img:
+                    found_images.extend(md_img)
+                # Match MyST figure directive: :::{figure} ./image.png
+                myst_img = re.findall(r':::\{figure\}\s+(.*?)\s*$', line)
+                if myst_img:
+                    found_images.extend(myst_img)
+
+    if found_images:
+        last_image_rel = found_images[-1].strip()
+        notebook_dir = os.path.dirname(notebook_rel_path)
+        image_abs_path = os.path.normpath(os.path.join(notebook_dir, last_image_rel))
+        print(f"[info] Found image: {image_abs_path}")
+
+        if os.path.exists(image_abs_path):
+            try:
+                with Image.open(image_abs_path) as img:
+                    # Resize while preserving aspect ratio
+                    w_percent = target_width / float(img.size[0])
+                    h_size = int(float(img.size[1]) * w_percent)
+                    img = img.resize((target_width, h_size), Image.LANCZOS)
+
+                    # Save to unique file
+                    image_name = notebook_rel_path.replace("/", "_").replace(".ipynb", "_preview.png")
+                    output_path = os.path.join(output_dir, image_name)
+                    img.save(output_path)
+
+                    return os.path.relpath(output_path, start=".").replace("\\", "/")
+            except Exception as e:
+                print(f"[warn] Couldn't load/resize MyST image for {notebook_rel_path}: {e}")
+
+    
+    # If no markdown images, check code output
     for cell in reversed(nb.cells):
         if cell.cell_type == "code":
             for output in reversed(cell.get("outputs", [])):
