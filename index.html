@@ -67,6 +67,7 @@
       box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
     }
   </style>
+  <script src="https://cdn.jsdelivr.net/npm/@luigi-project/client@2.21.1/luigi-client.js"></script>
 </head>
 <body>
   <div class="center-box">
@@ -108,13 +109,14 @@
         });
         el.addEventListener('click:result-action', (e) => {
           const urlObj = new URL(`${e.detail.gitpuller}`);
-          const link = urlObj.pathname+urlObj.search
-          window.parent.postMessage({
+          const link = urlObj.pathname+urlObj.search;
+          LuigiClient.linkManager().preserveQueryParams(true).navigate(link);
+          /*window.parent.postMessage({
             msg: 'luigi.navigation.open',
             params: {
               link: link,
             },
-          }, '*');
+          }, '*');*/
         });
         el.addEventListener('select', (e) => {
           window.location.href = e.detail.link;
