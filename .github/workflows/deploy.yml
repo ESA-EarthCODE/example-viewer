@@ -32,7 +32,10 @@ jobs:
           pip install -r requirements.txt
 
       - name: Build Jupyter Book
-        run: jupyter book build --html
+        run: |
+          # Clear potential other myst configurations in external_notebooks
+          find external_notebooks -type f \( -iname "myst.yaml" -o -iname "myst.yml" \) -exec rm -v {} +
+          jupyter book build --html
 
       - name: Generate Notebook List
         run: |
