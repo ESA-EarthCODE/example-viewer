@@ -232,7 +232,7 @@ def collect_notebooks():
                         abs_path = os.path.join(dirpath, file)
                         rel_path = os.path.relpath(abs_path, ROOT_DIR).replace("\\", "/")
                         p = pathlib.Path(rel_path)
-                        repo_path = pathlib.Path(*p.parts[3:])
+                        repo_path = pathlib.Path(*p.parts[2:])
                         meta = extract_frontmatter(abs_path)
                         nb = nbformat.read(abs_path, as_version=4)
                         image = meta.get("image") or extract_last_image(nb, rel_path)
