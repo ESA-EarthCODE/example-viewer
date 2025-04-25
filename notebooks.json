@@ -3,12 +3,12 @@
     "title": "Creating a STAC Item Catalog",
     "description": "",
     "metadata": {},
-    "image": "build/_assets/previews/external_notebooks_earthcode_documentation_examples_OSC_creating_an_item_catalog_preview.png",
-    "link": "external-notebooks/earthcode/documentation/examples/osc/creating-an-item-catalog",
+    "image": "build/_assets/previews/external_notebooks_earthcode_examples_OSC_creating_an_item_catalog_preview.png",
+    "link": "external-notebooks/earthcode/examples/osc/creating-an-item-catalog",
     "org": "ESA-EarthCODE",
-    "repo": "documentation",
+    "repo": "examples",
     "source": "submodule",
-    "path": "external_notebooks/earthcode/documentation/examples/OSC/creating_an_item_catalog.ipynb",
-    "gitpuller": "https://workspace.earthcode.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/documentation&urlpath=lab/tree/documentation/examples/OSC/creating_an_item_catalog.ipynb&branch=main"
+    "path": "external_notebooks/earthcode/examples/OSC/creating_an_item_catalog.ipynb",
+    "gitpuller": "https://workspace.earthcode.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/examples&urlpath=lab/tree/examples/OSC/creating_an_item_catalog.ipynb&branch=main"
   }
 ]
