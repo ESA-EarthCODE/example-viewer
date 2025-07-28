@@ -1,14 +1,74 @@
 [
   {
-    "title": "Creating a STAC Item Catalog",
+    "title": "Generating OSC information using pystac",
     "description": "",
     "metadata": {},
-    "image": "build/_assets/previews/external_notebooks_earthcode_examples_OSC_creating_an_item_catalog_preview.png",
-    "link": "external-notebooks/earthcode/examples/osc/creating-an-item-catalog",
+    "image": null,
+    "link": "external-notebooks/earthcode/examples/osc/osc-pr-pystac",
     "org": "ESA-EarthCODE",
     "repo": "examples",
     "source": "submodule",
-    "path": "external_notebooks/earthcode/examples/OSC/creating_an_item_catalog.ipynb",
-    "gitpuller": "https://workspace.earthcode.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/examples&urlpath=lab/tree/examples/OSC/creating_an_item_catalog.ipynb&branch=main"
+    "path": "external_notebooks/earthcode/examples/OSC/osc_pr_pystac.ipynb",
+    "gitpuller": "https://workspace.earthcode.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/examples&urlpath=lab/tree/examples/OSC/osc_pr_pystac.ipynb&branch=main"
+  },
+  {
+    "title": "Adding new content to Open Science Catalogue with Pull Request (PR)",
+    "description": "",
+    "metadata": {},
+    "image": null,
+    "link": "external-notebooks/earthcode/examples/osc/osc-pr-manual",
+    "org": "ESA-EarthCODE",
+    "repo": "examples",
+    "source": "submodule",
+    "path": "external_notebooks/earthcode/examples/OSC/osc_pr_manual.ipynb",
+    "gitpuller": "https://workspace.earthcode.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/examples&urlpath=lab/tree/examples/OSC/osc_pr_manual.ipynb&branch=main"
+  },
+  {
+    "title": "ESA Project Results Repository: Generating STAC collections with multiple assets",
+    "description": "",
+    "metadata": {},
+    "image": null,
+    "link": "external-notebooks/earthcode/examples/prr/example-tccas",
+    "org": "ESA-EarthCODE",
+    "repo": "examples",
+    "source": "submodule",
+    "path": "external_notebooks/earthcode/examples/PRR/example_tccas.ipynb",
+    "gitpuller": "https://workspace.earthcode.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/examples&urlpath=lab/tree/examples/PRR/example_tccas.ipynb&branch=main"
+  },
+  {
+    "title": "Creating STAC Catalog from the PRR - Example from SRAL Processing over Land Ice Dataset",
+    "description": "",
+    "metadata": {},
+    "image": null,
+    "link": "external-notebooks/earthcode/examples/prr/creating-stac-catalog-from-prr-example",
+    "org": "ESA-EarthCODE",
+    "repo": "examples",
+    "source": "submodule",
+    "path": "external_notebooks/earthcode/examples/PRR/Creating STAC Catalog_from_PRR_example.ipynb",
+    "gitpuller": "https://workspace.earthcode.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/examples&urlpath=lab/tree/examples/PRR/Creating STAC Catalog_from_PRR_example.ipynb&branch=main"
+  },
+  {
+    "title": "ESA Project Results Repository (PRR) Data Access and Collections Preview",
+    "description": "",
+    "metadata": {},
+    "image": null,
+    "link": "external-notebooks/earthcode/examples/prr/prr-stac-download-example",
+    "org": "ESA-EarthCODE",
+    "repo": "examples",
+    "source": "submodule",
+    "path": "external_notebooks/earthcode/examples/PRR/PRR_STAC_download_example.ipynb",
+    "gitpuller": "https://workspace.earthcode.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/examples&urlpath=lab/tree/examples/PRR/PRR_STAC_download_example.ipynb&branch=main"
+  },
+  {
+    "title": "Generating a STAC Collection for the PRR",
+    "description": "",
+    "metadata": {},
+    "image": null,
+    "link": "external-notebooks/earthcode/examples/prr/prr-stac-introduction",
+    "org": "ESA-EarthCODE",
+    "repo": "examples",
+    "source": "submodule",
+    "path": "external_notebooks/earthcode/examples/PRR/PRR_STAC_introduction.ipynb",
+    "gitpuller": "https://workspace.earthcode.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/examples&urlpath=lab/tree/examples/PRR/PRR_STAC_introduction.ipynb&branch=main"
   }
 ]
