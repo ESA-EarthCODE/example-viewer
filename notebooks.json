@@ -1,5 +1,65 @@
 [
   {
+    "title": "Dask 101",
+    "description": "",
+    "metadata": {},
+    "image": "build/_assets/previews/external_notebooks_earthcode_examples_pangeo_pangeo101_dask101_preview.png",
+    "link": "external-notebooks/earthcode/examples/pangeo/pangeo101/dask101",
+    "org": "ESA-EarthCODE",
+    "repo": "examples",
+    "source": "submodule",
+    "path": "external_notebooks/earthcode/examples/pangeo/pangeo101/dask101.ipynb",
+    "gitpuller": "https://workspace.earthcode.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/examples&urlpath=lab/tree/examples/pangeo/pangeo101/dask101.ipynb&branch=main"
+  },
+  {
+    "title": "Xarray 101",
+    "description": "",
+    "metadata": {},
+    "image": "build/_assets/previews/external_notebooks_earthcode_examples_pangeo_pangeo101_xarray101_preview.png",
+    "link": "external-notebooks/earthcode/examples/pangeo/pangeo101/xarray101",
+    "org": "ESA-EarthCODE",
+    "repo": "examples",
+    "source": "submodule",
+    "path": "external_notebooks/earthcode/examples/pangeo/pangeo101/xarray101.ipynb",
+    "gitpuller": "https://workspace.earthcode.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/examples&urlpath=lab/tree/examples/pangeo/pangeo101/xarray101.ipynb&branch=main"
+  },
+  {
+    "title": "Zarr 101",
+    "description": "",
+    "metadata": {},
+    "image": "build/_assets/previews/external_notebooks_earthcode_examples_pangeo_pangeo101_cloud-native-formats-101_preview.png",
+    "link": "external-notebooks/earthcode/examples/pangeo/pangeo101/cloud-native-formats-101",
+    "org": "ESA-EarthCODE",
+    "repo": "examples",
+    "source": "submodule",
+    "path": "external_notebooks/earthcode/examples/pangeo/pangeo101/cloud-native-formats-101.ipynb",
+    "gitpuller": "https://workspace.earthcode.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/examples&urlpath=lab/tree/examples/pangeo/pangeo101/cloud-native-formats-101.ipynb&branch=main"
+  },
+  {
+    "title": "What is STAC?",
+    "description": "",
+    "metadata": {},
+    "image": "build/_assets/previews/external_notebooks_earthcode_examples_pangeo_earthcode101_stac_and_data_access_preview.png",
+    "link": "external-notebooks/earthcode/examples/pangeo/earthcode101/stac-and-data-access",
+    "org": "ESA-EarthCODE",
+    "repo": "examples",
+    "source": "submodule",
+    "path": "external_notebooks/earthcode/examples/pangeo/earthcode101/stac_and_data_access.ipynb",
+    "gitpuller": "https://workspace.earthcode.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/examples&urlpath=lab/tree/examples/pangeo/earthcode101/stac_and_data_access.ipynb&branch=main"
+  },
+  {
+    "title": "Example EarthCODE Workflow",
+    "description": "",
+    "metadata": {},
+    "image": "build/_assets/previews/external_notebooks_earthcode_examples_pangeo_burnt-area-example_pangeo_on_EarthCODE_preview.png",
+    "link": "external-notebooks/earthcode/examples/pangeo/burnt-area-example/pangeo-on-earthcode",
+    "org": "ESA-EarthCODE",
+    "repo": "examples",
+    "source": "submodule",
+    "path": "external_notebooks/earthcode/examples/pangeo/burnt-area-example/pangeo_on_EarthCODE.ipynb",
+    "gitpuller": "https://workspace.earthcode.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/examples&urlpath=lab/tree/examples/pangeo/burnt-area-example/pangeo_on_EarthCODE.ipynb&branch=main"
+  },
+  {
     "title": "Generating OSC information using pystac",
     "description": "",
     "metadata": {},
@@ -24,28 +84,88 @@
     "gitpuller": "https://workspace.earthcode.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/examples&urlpath=lab/tree/examples/OSC/osc_pr_manual.ipynb&branch=main"
   },
   {
-    "title": "ESA Project Results Repository: Generating STAC collections with multiple assets",
+    "title": "Creating a workflow",
     "description": "",
     "metadata": {},
-    "image": null,
-    "link": "external-notebooks/earthcode/examples/prr/example-tccas",
+    "image": "build/_assets/previews/external_notebooks_earthcode_examples_openeo_1_workflow_preview.png",
+    "link": "external-notebooks/earthcode/examples/openeo/1-workflow",
     "org": "ESA-EarthCODE",
     "repo": "examples",
     "source": "submodule",
-    "path": "external_notebooks/earthcode/examples/PRR/example_tccas.ipynb",
-    "gitpuller": "https://workspace.earthcode.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/examples&urlpath=lab/tree/examples/PRR/example_tccas.ipynb&branch=main"
+    "path": "external_notebooks/earthcode/examples/openeo/1_workflow.ipynb",
+    "gitpuller": "https://workspace.earthcode.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/examples&urlpath=lab/tree/examples/openeo/1_workflow.ipynb&branch=main"
   },
   {
-    "title": "Creating STAC Catalog from the PRR - Example from SRAL Processing over Land Ice Dataset",
+    "title": "Creating an experiment",
     "description": "",
     "metadata": {},
-    "image": null,
-    "link": "external-notebooks/earthcode/examples/prr/creating-stac-catalog-from-prr-example",
+    "image": "build/_assets/previews/external_notebooks_earthcode_examples_openeo_2_experiment_preview.png",
+    "link": "external-notebooks/earthcode/examples/openeo/2-experiment",
     "org": "ESA-EarthCODE",
     "repo": "examples",
     "source": "submodule",
-    "path": "external_notebooks/earthcode/examples/PRR/Creating STAC Catalog_from_PRR_example.ipynb",
-    "gitpuller": "https://workspace.earthcode.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/examples&urlpath=lab/tree/examples/PRR/Creating STAC Catalog_from_PRR_example.ipynb&branch=main"
+    "path": "external_notebooks/earthcode/examples/openeo/2_experiment.ipynb",
+    "gitpuller": "https://workspace.earthcode.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/examples&urlpath=lab/tree/examples/openeo/2_experiment.ipynb&branch=main"
+  },
+  {
+    "title": "Reproducing an openEO Experiment published to the EarthCODE Open Science Catalogue",
+    "description": "",
+    "metadata": {},
+    "image": "build/_assets/previews/external_notebooks_earthcode_examples_openeo_4_reproduce_preview.png",
+    "link": "external-notebooks/earthcode/examples/openeo/4-reproduce",
+    "org": "ESA-EarthCODE",
+    "repo": "examples",
+    "source": "submodule",
+    "path": "external_notebooks/earthcode/examples/openeo/4_reproduce.ipynb",
+    "gitpuller": "https://workspace.earthcode.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/examples&urlpath=lab/tree/examples/openeo/4_reproduce.ipynb&branch=main"
+  },
+  {
+    "title": "LPS 2025 \u2013 Enabling Open Science with EarthCODE and the Copernicus Dataspace Ecosystem openEO Federation",
+    "description": "",
+    "metadata": {},
+    "image": "build/_assets/previews/external_notebooks_earthcode_examples_openeo_publication_openeo_publication_preview.png",
+    "link": "external-notebooks/earthcode/examples/openeo/publication/openeo-publication",
+    "org": "ESA-EarthCODE",
+    "repo": "examples",
+    "source": "submodule",
+    "path": "external_notebooks/earthcode/examples/openeo/publication/openeo_publication.ipynb",
+    "gitpuller": "https://workspace.earthcode.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/examples&urlpath=lab/tree/examples/openeo/publication/openeo_publication.ipynb&branch=main"
+  },
+  {
+    "title": "Sen4Amazonas: Time-Series Forest Loss Zarr Cube",
+    "description": "",
+    "metadata": {},
+    "image": null,
+    "link": "external-notebooks/earthcode/examples/prr/sen4amazonas",
+    "org": "ESA-EarthCODE",
+    "repo": "examples",
+    "source": "submodule",
+    "path": "external_notebooks/earthcode/examples/PRR/sen4amazonas.ipynb",
+    "gitpuller": "https://workspace.earthcode.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/examples&urlpath=lab/tree/examples/PRR/sen4amazonas.ipynb&branch=main"
+  },
+  {
+    "title": "Generating STAC collections for the CareHeat project",
+    "description": "",
+    "metadata": {},
+    "image": null,
+    "link": "external-notebooks/earthcode/examples/prr/careheat-v2",
+    "org": "ESA-EarthCODE",
+    "repo": "examples",
+    "source": "submodule",
+    "path": "external_notebooks/earthcode/examples/PRR/CareHeat_v2.ipynb",
+    "gitpuller": "https://workspace.earthcode.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/examples&urlpath=lab/tree/examples/PRR/CareHeat_v2.ipynb&branch=main"
+  },
+  {
+    "title": "SmartCH4 project - \u03b413CH4 signatures",
+    "description": "",
+    "metadata": {},
+    "image": null,
+    "link": "external-notebooks/earthcode/examples/prr/smartch4-signatures-modified",
+    "org": "ESA-EarthCODE",
+    "repo": "examples",
+    "source": "submodule",
+    "path": "external_notebooks/earthcode/examples/PRR/smartch4_signatures_modified.ipynb",
+    "gitpuller": "https://workspace.earthcode.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/examples&urlpath=lab/tree/examples/PRR/smartch4_signatures_modified.ipynb&branch=main"
   },
   {
     "title": "ESA Project Results Repository (PRR) Data Access and Collections Preview",
@@ -60,7 +180,43 @@
     "gitpuller": "https://workspace.earthcode.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/examples&urlpath=lab/tree/examples/PRR/PRR_STAC_download_example.ipynb&branch=main"
   },
   {
-    "title": "Generating a STAC Collection for the PRR",
+    "title": "Generating STAC metadata for the YIPEEO project",
+    "description": "",
+    "metadata": {},
+    "image": null,
+    "link": "external-notebooks/earthcode/examples/prr/prr-zarr",
+    "org": "ESA-EarthCODE",
+    "repo": "examples",
+    "source": "submodule",
+    "path": "external_notebooks/earthcode/examples/PRR/prr_zarr.ipynb",
+    "gitpuller": "https://workspace.earthcode.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/examples&urlpath=lab/tree/examples/PRR/prr_zarr.ipynb&branch=main"
+  },
+  {
+    "title": "Generating STAC metadatas for the TCCAS dataset",
+    "description": "",
+    "metadata": {},
+    "image": null,
+    "link": "external-notebooks/earthcode/examples/prr/tccas-v2",
+    "org": "ESA-EarthCODE",
+    "repo": "examples",
+    "source": "submodule",
+    "path": "external_notebooks/earthcode/examples/PRR/TCCAS_v2.ipynb",
+    "gitpuller": "https://workspace.earthcode.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/examples&urlpath=lab/tree/examples/PRR/TCCAS_v2.ipynb&branch=main"
+  },
+  {
+    "title": "Antartica InSync Data Cubes",
+    "description": "",
+    "metadata": {},
+    "image": null,
+    "link": "external-notebooks/earthcode/examples/prr/antarctica-zarr",
+    "org": "ESA-EarthCODE",
+    "repo": "examples",
+    "source": "submodule",
+    "path": "external_notebooks/earthcode/examples/PRR/antarctica_zarr.ipynb",
+    "gitpuller": "https://workspace.earthcode.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/examples&urlpath=lab/tree/examples/PRR/antarctica_zarr.ipynb&branch=main"
+  },
+  {
+    "title": "Generating STAC metadata for the OHC 4d Atlantic dataset",
     "description": "",
     "metadata": {},
     "image": null,
@@ -70,5 +226,17 @@
     "source": "submodule",
     "path": "external_notebooks/earthcode/examples/PRR/PRR_STAC_introduction.ipynb",
     "gitpuller": "https://workspace.earthcode.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/examples&urlpath=lab/tree/examples/PRR/PRR_STAC_introduction.ipynb&branch=main"
+  },
+  {
+    "title": "Generating metadata for the SRAL Processing over Land Ice Dataset",
+    "description": "",
+    "metadata": {},
+    "image": null,
+    "link": "external-notebooks/earthcode/examples/prr/creating-stac-catalog-from-prr-example",
+    "org": "ESA-EarthCODE",
+    "repo": "examples",
+    "source": "submodule",
+    "path": "external_notebooks/earthcode/examples/PRR/Creating STAC Catalog_from_PRR_example.ipynb",
+    "gitpuller": "https://workspace.earthcode.eox.at/hub/user-redirect/git-pull?repo=https://github.com/ESA-EarthCODE/examples&urlpath=lab/tree/examples/PRR/Creating STAC Catalog_from_PRR_example.ipynb&branch=main"
   }
 ]
